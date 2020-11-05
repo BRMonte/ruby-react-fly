@@ -33,7 +33,7 @@ airlines = Airline.create([
   }
 ])
 
-reviews = Review.create([
+reviews = !Review.create([
   {
     title: 'Great Airline',
     description: 'I had a great flight',
